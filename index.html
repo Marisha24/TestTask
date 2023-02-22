@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Соцсеть - Авторизация</title>
+        <link href='style.css' rel='stylesheet' type='text/css'/>
+    </head>
+    <body>
+        <div class="center">
+            <h1>Регистрация</h1>
+            <form method="GET" name="CalcForm">
+                <input type="text" th:field="*{a}"/>
+                <input type="text" th:field="*{b}"/>
+                
+                <input type="submit" class="button" name="add" value="+"/>
+        <input type="submit" class="button" name="subtract" value="-"/>
+        <input type="submit" class="button" name="multiply" value="*"/>
+        <input type="submit" class="button" name="divide" value="/"/>
+        <input type="submit" class="button" name="clearSimple" value="C"/>
+            </form>
+        </div>
+    </body>
+</html>
